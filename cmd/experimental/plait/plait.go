@@ -4,10 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/kuangruan/go-plist"
 	"os"
-	"syscall/js"
-
-	"howett.net/plist"
 )
 
 const JSONFormat int = 100

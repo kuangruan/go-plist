@@ -15,11 +15,9 @@ import (
 	"strings"
 
 	"github.com/jessevdk/go-flags"
+	"github.com/kuangruan/go-plist"
 	"gopkg.in/yaml.v1"
-	"howett.net/plist"
 )
-
-//import "github.com/mgutz/ansi"
 
 const (
 	PrettyFormat = 100 + iota
